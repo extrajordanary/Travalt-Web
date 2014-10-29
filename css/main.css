@@ -504,27 +504,27 @@ to {
 	display:inline-block;
 	padding-bottom: 15px;
 }
-footer .social {
-  display: block;
-  margin-top: 30px;
+.social {
+	border:0;
+	text-align:center;
+	padding:25px;
 }
-footer .social a {
-  margin: 0 8px;
-  padding: 15px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  display: inline-block;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+.social img {
+	padding:25px;
+	-moz-transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+	transition:all 0.6s ease;
 }
-footer .social a i {
-  width: 1em;
+.social:hover img {
+	padding:25px;
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	transform:scale(1.05);
+	z-index:2;
 }
 
 /*==========9. CUSTOM MEDIA QUERIES==============*/
